@@ -1,0 +1,119 @@
+body {
+  background-color: #370617;
+}
+
+
+.flex__1{
+  display: flex;
+  background-color: #370617;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  width: 1000px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+.container1{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+  
+}
+.container2{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.container3{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.container4{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+}
+.container5{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.container6{
+  display: flex;
+  background-color: #F48C06;
+  border: 2px solid #F48C06;
+  border-radius: 8px;
+  width: 468px;
+  height: 160px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #9D0208;
+  border: 1px solid #9D0208;
+  border-radius: 4px;
+  margin: 10px;
+  display: flex;
+  width: 78px;
+  height: 78px;
+}
+
+.second{
+  background-color: #9D0208;
+  border: 1px solid #9D0208;
+  border-radius: 4px;
+  margin: 10px;
+  display: flex;
+  width: 78px;
+  height: 78px;
+}
+
+.third1, .third3{
+  height: 120px;
+}
+.third2{
+  height: 64px;
+}
+.fourth{
+  height: 120px;
+}
+.fifth3{
+  align-self: flex-end
+}
+.sixth2{
+  width: 156px;
+}
